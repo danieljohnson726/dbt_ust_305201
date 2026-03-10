@@ -1,0 +1,7 @@
+sources:
+  - name: mk_mall
+    database: sourcedb
+    schema: mk_mall
+    tables:
+      - name: nations
+      - name: regions
