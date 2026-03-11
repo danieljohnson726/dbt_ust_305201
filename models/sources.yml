@@ -5,3 +5,9 @@ sources:
     tables:
       - name: nations
       - name: regions
+      - name: customers
+      - name: suppliers
+        config:
+          freshness:
+            warn_after: {count: 1, period: day}
+            error_after: {count: 5, period: day}
