@@ -1,0 +1,19 @@
+models:
+  - name: int_orders
+    columns:
+      - name: order_total_price_usd
+        data_tests:
+          - is_even:
+              arguments:
+                checkvalue: 900 
+              config:
+                store_failures: true 
+                schema: testing
+      - name: order_total_price_inr
+        data_tests:
+          - is_even:
+              arguments:
+                checkvalue: 80000 
+              config:
+                store_failures: true 
+                schema: testing

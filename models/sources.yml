@@ -6,6 +6,7 @@ sources:
       - name: nations
       - name: regions
       - name: customers
+      - name: orders
       - name: suppliers
         config:
           freshness:

@@ -1,5 +1,8 @@
-{{ config(materialized = 'table',
-transient = false) }}
+{{ config (
+    materialized = 'table',
+    transient = false,
+    tags = 'stg'
+) }}
 
 with customer as (
 select
