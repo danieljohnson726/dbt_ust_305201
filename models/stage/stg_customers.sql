@@ -1,4 +1,4 @@
-{{ config(materalized = 'table',
+{{ config(materialized = 'table',
 transient = false) }}
 
 with customer as (

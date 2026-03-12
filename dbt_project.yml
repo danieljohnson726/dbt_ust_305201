@@ -35,3 +35,13 @@ models:
     stage:
       +materialized: table
       +schema: stage
+    marts:
+      +schema: marts
+      +materialized: table
+
+
+seeds:
+  mkmall:
+    +database: analytics            # optional: set or inherit from profile
+    +schema: seeds                  # <<< set where seeds should live
+    +quote_columns: false           # optional
