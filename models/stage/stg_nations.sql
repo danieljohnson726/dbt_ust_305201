@@ -2,7 +2,6 @@
     query_tag = 'nations',
     tags = 'stg',
     pre_hook = 'alter session set timezone = "Asia/Kolkata"'
-
 ) }}
 
 with cte_nations as (
